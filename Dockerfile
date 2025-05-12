@@ -8,7 +8,7 @@ RUN npm ci --omit=dev
 FROM node:20-bullseye AS builder
 WORKDIR /app
 COPY package.json package-lock.json ./
-RUN npm ci --omit=dev
+RUN npm ci
 RUN npm rebuild lightningcss
 COPY . .
 RUN npm run build
