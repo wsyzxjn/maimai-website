@@ -21,7 +21,7 @@ COPY --from=builder /app/public ./public
 COPY --from=builder /app/node_modules ./node_modules
 COPY package.json ./
 COPY next.config.* ./
-COPY next-env.d.ts ./
+COPY next-env.d.ts* ./
 COPY tsconfig.json ./
 COPY app ./app
 COPY components ./components

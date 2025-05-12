@@ -27,3 +27,5 @@ jobs:
           push: true
           platforms: linux/amd64
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/maimai-website:amd64-latest
+        build-args: |
+          NEXT_GENERATE_ENV=1
