@@ -9,16 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "inline-tailwindcss": "^1.0.1",
+    "ioredis": "^5.6.1",
+    "next": "15.3.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.3.2"
+    "tailwind-to-inline": "^1.0.5",
+    "zod": "^3.24.4"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@tailwindcss/postcss": "^4.1.6",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4"
+    "tailwindcss": "^4.1.6",
+    "typescript": "^5"
   }
 }
